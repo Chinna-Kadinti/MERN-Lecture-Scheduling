@@ -1,0 +1,110 @@
+/* Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f5f8ff;
+}
+
+.app-container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #03396c;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: fixed;
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 100px;
+  padding-left: 20px;
+}
+
+.sidebar nav a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 0;
+  font-weight: 500;
+}
+
+.sidebar nav a:hover {
+  background-color: #005b96;
+  padding-left: 10px;
+}
+
+/* Main content */
+.main {
+  margin-left: 250px;
+  padding: 30px;
+  width: calc(100% - 250px);
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Tables */
+.table-container {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.table-container h2 {
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004999;
+}
